@@ -2,7 +2,7 @@ POST http://localhost:3000/api/services
 Content-Type: application/json
 
 {
-    "name": "Formatação PC 2",
+    "name": "Formatação PC 3",
     "description": "formatar pc para cliente top em nome de Deus",
     "price": 600,
     "image": "https://httpstatusdogs.com/img/201.jpg"
@@ -10,3 +10,21 @@ Content-Type: application/json
 
 ###
 GET http://localhost:3000/api/services
+
+###
+GET  http://localhost:3000/api/services/647a1e727c7c4519cdbc1bee
+
+###
+DELETE http://localhost:3000/api/services/647a197bac21257e3874e80e
+
+###
+PUT http://localhost:3000/api/services/647a1e727c7c4519cdbc1bee
+Content-Type: application/json
+
+{
+    "name": "Instalação de Câmeras IP",
+    "description": "Serviço mega grande 32 câmeras",
+    "price": 60.00,
+    "image": "https://httpstatusdogs.com/img/201.jpg"
+}
+
