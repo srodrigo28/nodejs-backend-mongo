@@ -1,4 +1,11 @@
 {
+  "name": "backend-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
