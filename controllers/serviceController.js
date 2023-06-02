@@ -17,5 +17,14 @@ const serviceController = {
             console.log(error);
         }
     },
+    getAll: async (__, res) => {
+        try {
+            const service = await ServiceModel.find()
+
+            res.json(service);
+        } catch (error) {
+            console.log(error);
+        }
+    }
 };
 module.exports = serviceController;
