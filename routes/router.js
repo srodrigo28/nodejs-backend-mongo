@@ -4,8 +4,12 @@ const router = require("express").Router()
 const serviceRouter = require("./services")
 router.use("/", serviceRouter);
 
-// Service User
+// User router
 const userRouter = require("./users")
 router.use("/", userRouter);
+
+// Contas router
+// const contaRouter = require("./contas")
+// router.use("/", contaRouter);
 
 module.exports = router;

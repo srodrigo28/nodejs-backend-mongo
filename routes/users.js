@@ -7,7 +7,7 @@ router // INSERIR
     .post((req, res) => userController.create(req, res));
 
 router // LISTAR TODOS
-    .route("/users").get((req, res) => userController.getAll(req, res));
+    .route("/user").get((req, res) => userController.getAll(req, res));
 
 
 router // LISTAR POR ID
