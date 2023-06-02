@@ -1,0 +1,8 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+{
+    "name": "Formatação PC 2",
+    "description": "formatar pc para cliente top em nome de Deus",
+    "price": 600,
+    "image": "https://httpstatusdogs.com/img/201.jpg"
+}

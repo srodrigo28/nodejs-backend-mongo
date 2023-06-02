@@ -1,7 +1,9 @@
 const router = require("express").Router()
 
-const serviceController = require("./../controllers/serviceController")
+const serviceController = require("./../controllers/serviceController");
 
-// Funções rotas
+router
+    .route("/services")
+    .post((req, res) => serviceController.create(req, res));
 
 module.exports = router;
